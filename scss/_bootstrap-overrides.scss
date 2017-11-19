@@ -31,7 +31,7 @@
 
 .btn-success {
   font-weight: 700;
-  @include button-variant(white, $theme-success, $theme-success);
+  @include button-variant(black, $theme-success, $theme-success);
 }
 
 .btn-social {
