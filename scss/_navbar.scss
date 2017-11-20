@@ -64,9 +64,7 @@
     .navbar-nav > li.nav-item > a.nav-link.active {
       color: white;
       border-radius: 3px;
-      background: $theme-success;
-      &:active,
-      &:focus,
+      background: red;
       &:hover {
         color: white;
         background: $theme-success;

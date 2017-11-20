@@ -21,6 +21,13 @@ a:hover {
   color: #ffdd00;
   outline: none; }
 
+.white a,
+.white a.active,
+.white a:active,
+.white a:focus,
+.white a:hover {
+  color: #b59d00; }
+
 h1,
 h2,
 h3,
@@ -148,8 +155,8 @@ section.success {
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
       color: white;
       border-radius: 3px;
-      background: #ffdd00; }
-      #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+      background: red; }
+      #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
         color: white;
         background: #ffdd00; }
   #mainNav.navbar-shrink {
@@ -363,6 +370,16 @@ footer {
     .btn-outline.btn-colored:hover {
       color: white;
       background: #ffdd00; }
+  .btn-outline.btn-yellow {
+    color: #333;
+    border-color: #333; }
+    .btn-outline.btn-yellow:hover {
+      color: white;
+      border-color: red;
+      background: red; }
+  .btn-outline.btn-white {
+    color: #333;
+    border-color: #ffdd00; }
 
 .btn-primary {
   font-weight: 700;
@@ -454,6 +471,15 @@ footer {
 .btn:active,
 .btn:focus {
   outline: none; }
+
+hr.star-primary::after {
+  color: #b59d00; }
+
+hr.star-light::after {
+  color: #b59d00; }
+
+hr.star-light {
+  border-color: #333; }
 
 #snow {
   background: none;
