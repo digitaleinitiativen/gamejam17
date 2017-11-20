@@ -64,11 +64,12 @@
 }
 
 hr.star-primary::after {
-  color: #b59d00;
+  color: $theme-success;
 }
 hr.star-light::after {
-  color: #ffdd00;
+  color: #b59d00;
 }
+
 hr.star-light {
   border-color: #333;
 }

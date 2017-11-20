@@ -473,10 +473,10 @@ footer {
   outline: none; }
 
 hr.star-primary::after {
-  color: #b59d00; }
+  color: #ffdd00; }
 
 hr.star-light::after {
-  color: #ffdd00; }
+  color: #b59d00; }
 
 hr.star-light {
   border-color: #333; }
