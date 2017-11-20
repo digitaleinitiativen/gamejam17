@@ -155,7 +155,7 @@ section.success {
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
       color: white;
       border-radius: 3px;
-      background: red; }
+      background: #a30000; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
         color: white;
         background: #ffdd00; }
@@ -375,8 +375,8 @@ footer {
     border-color: #333; }
     .btn-outline.btn-yellow:hover {
       color: white;
-      border-color: red;
-      background: red; }
+      border-color: #a30000;
+      background: #a30000; }
   .btn-outline.btn-white {
     color: #333;
     border-color: #ffdd00; }
