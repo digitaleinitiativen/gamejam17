@@ -20,6 +20,18 @@ a:hover {
   outline: none;
 }
 
+.white {
+  a,
+  a.active,
+  a:active,
+  a:focus,
+  a:hover {
+    color: #b59d00
+  }
+}
+
+
+
 h1,
 h2,
 h3,

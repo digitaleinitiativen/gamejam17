@@ -22,6 +22,19 @@
       background: $theme-success;
     }
   }
+  &.btn-yellow {
+    color: $y-contrast;
+    border-color: $y-contrast;
+    &:hover {
+      color: white;
+      border-color: red;
+      background: red;
+    }
+  }
+  &.btn-white {
+    color: $y-contrast;
+    border-color: $theme-success;
+  }
 }
 
 .btn-primary {
@@ -48,4 +61,14 @@
 .btn:active,
 .btn:focus {
   outline: none;
+}
+
+hr.star-primary::after {
+  color: #b59d00;
+}
+hr.star-light::after {
+  color: #ffdd00;
+}
+hr.star-light {
+  border-color: #333;
 }

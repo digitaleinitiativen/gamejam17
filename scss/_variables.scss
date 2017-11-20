@@ -2,12 +2,14 @@
 
 // Gray and Brand Colors for use across theme
 
-$theme-primary: #050077;
+$theme-primary: #333;
 $theme-success: #ffdd00;
 
-$gray-base: #000;
+$gray-base: red;
 $gray-darker: lighten($gray-base, 13.5%);
 $gray-dark: lighten($gray-base, 20%);
 $gray: lighten($gray-base, 33.5%);
 $gray-light: lighten($gray-base, 46.7%);
 $gray-lighter: lighten($gray-base, 93.5%);
+
+$y-contrast: #333;
