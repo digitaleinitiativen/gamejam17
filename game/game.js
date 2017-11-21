@@ -1,7 +1,7 @@
 var SPEED = 180;
 var GRAVITY = 1200;
 var JUMP = 580;
-var SPAWN_RATE = 2000;
+var SPAWN_RATE = 3000;
 var SPAWN_REDUX = 50;
 var SPAWN_RAND = 400;
 var ASSET_VERSION = 1; //(new Date()).getTime();
@@ -123,6 +123,7 @@ var state = {
         this.spawnTimer = this.game.time.create(this);
         this.spawnTimer.add(this.spawnRate, this.spawnEnemy, this);
         this.spawnTimer.start();
+        this.spawnRate = SPAWN_RATE;
 
         this.scoreText.setText("SCORE: "+this.score);
         this.teaser.visible = false;
