@@ -131,7 +131,9 @@ var state = {
 
         }
 
-        if(this.game.input.keyboard.isDown(Phaser.Keyboard.UP) || game.input.activePointer.leftButton.isDown) {
+        if(this.game.input.keyboard.isDown(Phaser.Keyboard.UP) 
+            || this.game.input.activePointer.isDown
+        ) {
             if(this.upFree) {
                 if(!this.gameStarted) {
                     this.start();
